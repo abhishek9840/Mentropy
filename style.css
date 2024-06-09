@@ -15,10 +15,10 @@ body , html{
     height: 80px;
     width: 100%;
     position: fixed;
-    background-color: #fc7431;
+    background-color: #742802;
     display: flex;
-    opacity: 0.9;
-    filter: blur(0.8);
+    /* opacity: 0.9;
+    filter: blur(0.8); */
 }
 
 .logo{
@@ -26,7 +26,7 @@ body , html{
     display: flex;
     font-size: 3.5rem;
     font-weight: 900;
-    padding-right: 19%;
+    padding-right: 15%;
     padding-left: 10%;
     line-height: 80px;
 }
@@ -38,7 +38,7 @@ body , html{
     padding-left: 4vw;
     display: inline-flexbox;
     justify-content: space-between;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     padding-top: 10px;
     
     
@@ -55,7 +55,7 @@ body , html{
 
 .navbar ul li a:hover{
     color: white;
-    font-size: 1.9rem ;
+    font-size: 1.5rem ;
     /* box-shadow: 2px 2px 2px white; */
 }
 
@@ -130,6 +130,46 @@ body , html{
      }
     
 }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    background-color: #742802;
+    border-radius: 10px;
+  }
+
+  .dropbtn{
+    color: white;
+    background: #742802;
+    border-radius: 5px;
+    border: 2px solid white;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 10px;
+    
+  }
+  
+  .dropdown {
+    line-height: 60px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 2px 16px;
+    text-decoration: none;
+    display: block;
+    color: black;
+  }
+  
+  .dropdown-content a:hover {background: none; color: black;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
 
 /* HOME part started */
 
@@ -210,7 +250,7 @@ body , html{
     justify-content: center;
     font-size: 3.8rem;
     font-weight: 800;
-    color: rgb(255, 85, 0);
+    color: #742802;
 }
 
 .mentor_line h1{
@@ -269,8 +309,9 @@ body , html{
 
 .jee a{
     font-size: 1.8rem;
-    color: rgb(250, 136, 22);
+    color: rgb(68, 22, 250);
     padding: 5%;
+    font-weight: 700;
     
 }
 
@@ -336,7 +377,7 @@ body , html{
 
 .whyus_slogen h4{
     padding-left: 30px;
-    color: #fc5931;
+    color: #742802;
 }
 
 
@@ -523,17 +564,17 @@ body , html{
     font-size: 1.4rem;
 }
 .footer-intro h2{
-    font-size: 2.4rem;
+    font-size: 2rem;
     padding-bottom: 3vh;
 }
 
 .footer-links h2{
-    font-size: 2.4rem;
+    font-size: 2rem;
     padding-bottom: 3vh;
 }
 
 .footer-info h2{
-    font-size: 2.4rem;
+    font-size: 2rem;
     padding-bottom: 3vh;
 }
 
@@ -541,7 +582,7 @@ body , html{
     text-decoration: none;
     color: rgb(223, 219, 219);
     padding: 1vh;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 .footer-links ul li{
@@ -553,7 +594,7 @@ body , html{
 .footer-info ul li {
     padding-bottom: 2vh;
     list-style-type: none;
-    font-size: 1.3rem;   
+    font-size: 1.1rem;   
 }
 
 .footer-info ul li a{
@@ -596,6 +637,7 @@ body , html{
     background-image: url(footer.jpg);
     background-size: cover;
 }
+
 
 
 
