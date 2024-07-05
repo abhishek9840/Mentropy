@@ -25,21 +25,44 @@
                 <li><a href="counselling.html">JEE/NEET counselling</a></li>
             </ul>
         </div>
-        <div class="none">.</div>
-        <div class="login_box1">
-        <div class="login_box"> <h1>𝓛𝓞𝓖𝓘𝓝</h1> <br> <div class="form" >
-            <i class="fa-solid fa-circle"></i>
-            <input type="text" style=" border: 0" placeholder="Username ">
+        <div class="background-content">
+
         </div>
-        <div class="form1" >
-            <i class="fa-solid fa-circle"></i>
-            <input type="password" style=" border: 0" placeholder="Password ">
+        <div class="modal-container" id="modalContainer">
+            <div class="modal">
+                <div class="modal-content">
+                    <div class="left-section">
+                        <img src="assets/mentropy.jpg" alt="Learning Illustration">
+                        <p>Over 3000+ mentees trust us for their preparation</p>
+                        <ul>
+                            <li><i class="fa-brands fa-codepen"></i>Learn from mentors from TOP NITs/IITs</li>
+                            <li><i class="fa-brands fa-codepen"></i>Access weekly live meeting, one-one guidance , courses and more </li>
+                        </ul>
+                    </div>
+                    <div class="right-section">
+                        <h2 id="formTitle">Log in</h2>
+                        <p id="toggleText">or <a href="#" id="toggleLink">create a free account</a></p>
+                        <form id="authForm">
+                            <div class="input-group">
+                                <select name="countryCode" id="countryCode" >
+                                    <option value="+91">+91</option>
+                                    <option value="+01">+01</option>
+                                    <option value="+81">+81</option>
+                                    <option value="+97">+97</option>
+                                    <option value="+72">+72</option>
+                                    <!-- Add more country codes as needed -->
+                                </select>
+                                <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Enter your mobile number"  required>
+                            </div>
+                            <div class="verification"><p>We will send OTP for verification</p></div>
+                            <button type="submit" id="submitBtn">Request OTP</button>
+                        </form>
+                        <div class="footer_problem"><p>Facing trouble?<a href="#">Help center</a></p></div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="login_button">
-            <a href="#">Login</a>
-        </div>
-      </div>
-      </div>
+        <script src="script.js"></script>
     </div>
 </body>
 </html>
